@@ -20,6 +20,6 @@ int power1(int m, int n) {
 
 int main() {
     int r = power1(2, 3);
-    printf("%d ", r);
+    cout << r;
     return 0;
 }
