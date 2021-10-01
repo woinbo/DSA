@@ -1,28 +1,25 @@
 #include <stdio.h>
-#include <iostream>
- 
-using namespace std;
 
+#include <iostream>
+
+using namespace std;
 
 //  Sum of N natural numbers
 int sum(int n) {
-    if(n==0)
+    if (n == 0)
         return 0;
-    return sum(n-1)+n;
+    return sum(n - 1) + n;
 }
 
 int Isum(int n) {
-    int s=0,i;
-        for(i=1;i<=n;i++)
-            s=s+i;  
+    int s = 0, i;
+    for (i = 1; i <= n; i++)
+        s = s + i;
     return s;
 }
 
 int main() {
-    int r=sum(5);
-    cout<<r<<endl;
-    return 0; 
+    int r = sum(5);
+    cout << r << endl;
+    return 0;
 }
-
-
- 
