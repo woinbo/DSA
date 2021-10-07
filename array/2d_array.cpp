@@ -1,6 +1,4 @@
 // 2D Array
-#include <stdio.h>
-
 #include <iostream>
 
 using namespace std;
